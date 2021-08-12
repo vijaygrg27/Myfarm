@@ -2,7 +2,7 @@ import os
 import platform
 from subprocess import DEVNULL, STDOUT, check_call
 
-def set_heroku_vars(token_name='4/1AX4XfWjrqe_kwerpr8OWio9ccCy8BdogJ7chBCkvM3lBnZ73Q1F7ewzYHWY'):
+def set_heroku_vars(token_name='EARTHENGINE_TOKEN'):
     """Extracts Earth Engine token from the local computer and sets it as an environment variable on heroku.
 
     Args:
